@@ -1,3 +1,5 @@
+> Fork experiments: [B200 reproduction guide](README_B200.md) · [four-task experiment record](TASK_SUITE_B200.md). Includes exact motion/terrain inputs and frozen teachers for the no-DR heightmap Student.
+
 # [RSS 2026] Perceptive Humanoid Parkour: Chaining Dynamic Human Skills via Motion Matching
 
 Zhen Wu\*, Xiaoyu Huang\*, Lujie Yang\*, Yuanhang Zhang, Xi Chen,

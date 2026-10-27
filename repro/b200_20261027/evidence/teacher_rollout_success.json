@@ -1,0 +1,273 @@
+{
+  "hurdle": {
+    "checkpoint_step": 5800,
+    "run_path": "humanoid-parkour/php-parkour/6mb6f8fb",
+    "num_envs": 64,
+    "success": 61,
+    "success_rate": 0.953125,
+    "confidence_interval_95_wilson": [
+      0.8710013921145747,
+      0.9839312745678148
+    ],
+    "tracking_success_legacy": 61,
+    "reference_completed": 61,
+    "success_mean_body_position_error_m": 0.02939041364999091,
+    "mean_final_xy_error_m": 0.07668488577473909,
+    "success_mean_final_z_error_m": 0.012041060650934939,
+    "success_mean_max_root_height_gain_m": 0.03481412129323991,
+    "failures": [
+      {
+        "env": 0,
+        "last_frame": 32,
+        "duration_s": 0.64,
+        "bad_ref_pos": true,
+        "bad_ref_ori": false,
+        "bad_body_pos": false,
+        "timeout": false,
+        "final_xy_error_m": 0.5238975882530212,
+        "final_z_error_m": 0.04628545045852661
+      },
+      {
+        "env": 24,
+        "last_frame": 50,
+        "duration_s": 1.0,
+        "bad_ref_pos": true,
+        "bad_ref_ori": false,
+        "bad_body_pos": false,
+        "timeout": false,
+        "final_xy_error_m": 0.49601757526397705,
+        "final_z_error_m": 0.02965843677520752
+      },
+      {
+        "env": 43,
+        "last_frame": 33,
+        "duration_s": 0.66,
+        "bad_ref_pos": true,
+        "bad_ref_ori": false,
+        "bad_body_pos": false,
+        "timeout": false,
+        "final_xy_error_m": 0.49393004179000854,
+        "final_z_error_m": 0.061968982219696045
+      }
+    ],
+    "training_windows": {
+      "Mean reward": {
+        "last100_mean": 171.7295,
+        "previous100_mean": 168.9885000000001
+      },
+      "Env/average_episode_length": {
+        "last100_mean": 1835.9745760000003,
+        "previous100_mean": 1824.671005000001
+      },
+      "Env/motion/error_body_pos": {
+        "last100_mean": 0.033453,
+        "previous100_mean": 0.03366300000000002
+      },
+      "Env/motion/error_ref_pos": {
+        "last100_mean": 0.07513299999999998,
+        "previous100_mean": 0.07518999999999999
+      },
+      "Env/motion/error_joint_pos": {
+        "last100_mean": 0.5498909999999999,
+        "previous100_mean": 0.5531590000000001
+      },
+      "Env/action_clip_frac": {
+        "last100_mean": 0.0,
+        "previous100_mean": 0.0
+      }
+    },
+    "evaluated_source_sha256": "69d453048120cd0e38092a9ac21be00917e53a46c9ffd1f3039e9ef7a6f9cb3a"
+  },
+  "box_up": {
+    "checkpoint_step": 5700,
+    "run_path": "humanoid-parkour/php-parkour/0j17skh2",
+    "num_envs": 64,
+    "success": 62,
+    "success_rate": 0.96875,
+    "confidence_interval_95_wilson": [
+      0.8930250611770575,
+      0.9913880422874833
+    ],
+    "tracking_success_legacy": 62,
+    "reference_completed": 62,
+    "success_mean_body_position_error_m": 0.05285369526715048,
+    "mean_final_xy_error_m": 0.11616371345007792,
+    "success_mean_final_z_error_m": 0.004422208955211024,
+    "success_mean_max_root_height_gain_m": 0.5049800190233416,
+    "failures": [
+      {
+        "env": 0,
+        "last_frame": 147,
+        "duration_s": 2.94,
+        "bad_ref_pos": true,
+        "bad_ref_ori": false,
+        "bad_body_pos": false,
+        "timeout": false,
+        "final_xy_error_m": 0.4928704798221588,
+        "final_z_error_m": 0.15763312578201294
+      },
+      {
+        "env": 43,
+        "last_frame": 34,
+        "duration_s": 0.68,
+        "bad_ref_pos": true,
+        "bad_ref_ori": false,
+        "bad_body_pos": false,
+        "timeout": false,
+        "final_xy_error_m": 0.5174675583839417,
+        "final_z_error_m": 0.05127805471420288
+      }
+    ],
+    "training_windows": {
+      "Mean reward": {
+        "last100_mean": 135.77760000000006,
+        "previous100_mean": 133.72910000000005
+      },
+      "Env/average_episode_length": {
+        "last100_mean": 1678.1621800000003,
+        "previous100_mean": 1675.7149220000001
+      },
+      "Env/motion/error_body_pos": {
+        "last100_mean": 0.05065400000000001,
+        "previous100_mean": 0.05180200000000002
+      },
+      "Env/motion/error_ref_pos": {
+        "last100_mean": 0.08906399999999998,
+        "previous100_mean": 0.08988700000000001
+      },
+      "Env/motion/error_joint_pos": {
+        "last100_mean": 0.8842099999999999,
+        "previous100_mean": 0.8992730000000005
+      },
+      "Env/action_clip_frac": {
+        "last100_mean": 0.0,
+        "previous100_mean": 0.0
+      }
+    },
+    "evaluated_source_sha256": "a45c72593fc9653e347074c7b444fd6705e1c100b79bcd0b768b588ecfa3fdf0"
+  },
+  "box_down": {
+    "checkpoint_step": 5700,
+    "run_path": "humanoid-parkour/php-parkour/wk00qnw4",
+    "num_envs": 64,
+    "success": 61,
+    "success_rate": 0.953125,
+    "confidence_interval_95_wilson": [
+      0.8710013921145747,
+      0.9839312745678148
+    ],
+    "tracking_success_legacy": 61,
+    "reference_completed": 61,
+    "success_mean_body_position_error_m": 0.03735738259847047,
+    "mean_final_xy_error_m": 0.09828849643236026,
+    "success_mean_final_z_error_m": 0.012730536890811607,
+    "success_mean_max_root_height_gain_m": 0.02496737925732722,
+    "failures": [
+      {
+        "env": 0,
+        "last_frame": 55,
+        "duration_s": 1.1,
+        "bad_ref_pos": true,
+        "bad_ref_ori": false,
+        "bad_body_pos": false,
+        "timeout": false,
+        "final_xy_error_m": 0.4312744438648224,
+        "final_z_error_m": 0.2458338737487793
+      },
+      {
+        "env": 26,
+        "last_frame": 355,
+        "duration_s": 7.1000000000000005,
+        "bad_ref_pos": false,
+        "bad_ref_ori": false,
+        "bad_body_pos": true,
+        "timeout": false,
+        "final_xy_error_m": 0.391361266374588,
+        "final_z_error_m": 0.16388535499572754
+      },
+      {
+        "env": 49,
+        "last_frame": 370,
+        "duration_s": 7.4,
+        "bad_ref_pos": false,
+        "bad_ref_ori": false,
+        "bad_body_pos": true,
+        "timeout": false,
+        "final_xy_error_m": 0.3148803412914276,
+        "final_z_error_m": 0.06283324956893921
+      }
+    ],
+    "training_windows": {
+      "Mean reward": {
+        "last100_mean": 148.7957,
+        "previous100_mean": 147.4525
+      },
+      "Env/average_episode_length": {
+        "last100_mean": 1678.7456590000002,
+        "previous100_mean": 1690.8302949999998
+      },
+      "Env/motion/error_body_pos": {
+        "last100_mean": 0.042338999999999995,
+        "previous100_mean": 0.042458
+      },
+      "Env/motion/error_ref_pos": {
+        "last100_mean": 0.08000300000000003,
+        "previous100_mean": 0.07984100000000001
+      },
+      "Env/motion/error_joint_pos": {
+        "last100_mean": 0.6906449999999996,
+        "previous100_mean": 0.698169
+      },
+      "Env/action_clip_frac": {
+        "last100_mean": 0.0,
+        "previous100_mean": 0.0
+      }
+    },
+    "evaluated_source_sha256": "512ba3b889f9f33536f3b2966e094af60b07204041147dc4db504f9167e57b27"
+  },
+  "crouch": {
+    "checkpoint_step": 5800,
+    "run_path": "humanoid-parkour/php-parkour/34t1t5lh",
+    "num_envs": 64,
+    "success": 64,
+    "success_rate": 1.0,
+    "confidence_interval_95_wilson": [
+      0.9433739770288436,
+      1
+    ],
+    "tracking_success_legacy": 64,
+    "reference_completed": 64,
+    "success_mean_body_position_error_m": 0.028435655316570774,
+    "mean_final_xy_error_m": 0.08086586401623208,
+    "success_mean_final_z_error_m": 0.018095203675329685,
+    "success_mean_max_root_height_gain_m": 0.023370947688817978,
+    "failures": [],
+    "training_windows": {
+      "Mean reward": {
+        "last100_mean": 172.87640000000002,
+        "previous100_mean": 171.0584
+      },
+      "Env/average_episode_length": {
+        "last100_mean": 1858.7762430000002,
+        "previous100_mean": 1861.4194759999998
+      },
+      "Env/motion/error_body_pos": {
+        "last100_mean": 0.03494999999999999,
+        "previous100_mean": 0.03531599999999999
+      },
+      "Env/motion/error_ref_pos": {
+        "last100_mean": 0.07755799999999996,
+        "previous100_mean": 0.07747800000000002
+      },
+      "Env/motion/error_joint_pos": {
+        "last100_mean": 0.5599959999999998,
+        "previous100_mean": 0.5699630000000002
+      },
+      "Env/action_clip_frac": {
+        "last100_mean": 0.0,
+        "previous100_mean": 0.0
+      }
+    },
+    "evaluated_source_sha256": "d4e421e6c02b5d229c3f1f2deac10bac46e8f0b0eda72327ec61cb37a713506a"
+  }
+}

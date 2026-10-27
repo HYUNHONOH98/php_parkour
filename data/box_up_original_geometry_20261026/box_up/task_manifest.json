@@ -1,0 +1,70 @@
+{
+  "source_run": "humanoid-parkour/WholeBodyTracking/6ujlv349",
+  "source_type": "Original authored PKL, not the modified-box rollout",
+  "source_sha256": "6e0447443c58eaf2821b83428be466c352ab7074c73a9308f9ca58a55aedb67c",
+  "frames": 611,
+  "duration_s": 12.22,
+  "phases": [
+    {
+      "name": "walk",
+      "start_s": 0.0,
+      "end_s": 1.5
+    },
+    {
+      "name": "boxclimb_up",
+      "start_s": 1.5,
+      "end_s": 7.833333333333333
+    },
+    {
+      "name": "recover_on_box",
+      "start_s": 7.833333333333333,
+      "end_s": 8.433333333333334
+    },
+    {
+      "name": "walk_on_box",
+      "start_s": 8.433333333333334,
+      "end_s": 9.233333333333333
+    },
+    {
+      "name": "walk_on_box",
+      "start_s": 9.233333333333333,
+      "end_s": 12.233333333333333
+    }
+  ],
+  "searches": [
+    {
+      "frame": 0,
+      "exit_frame": 380,
+      "cost": 16.00628268776506
+    }
+  ],
+  "friction": 1.0,
+  "authored_root_to_face_m": 0.4096321059975159,
+  "matched_entry_root_to_face_m": 0.4096321062842472,
+  "matched_entry_frame": 75,
+  "box": {
+    "pos": [
+      2.4439276576696463,
+      0.32226979085612506,
+      0.25
+    ],
+    "quat": [
+      0.997947598588961,
+      0.0,
+      0.0,
+      0.06403585300849982
+    ],
+    "size": [
+      3.346005955925292,
+      5.0,
+      0.5
+    ]
+  },
+  "source_geometry": "Original authored ascent preserved exactly after one rigid transform; blending confined to surrounding walking frames; platform extended away from approach",
+  "max_root_step_m": 0.018957129318864282,
+  "sha256": {
+    "task_terrain.npy": "ba2966ffdd37d589082b402585692442dc3e80b1e32411fab6c9f1b4d20acd06",
+    "task_terrain.obj": "8c8325bafa0af206a0616b8a5751d20131e5d2511f44156979a757bb65891558",
+    "task_motion.npz": "b86f295b8eb25b89d7438a5d6744b4c9afb75e478c08be9e8710a5af4b50b2d0"
+  }
+}

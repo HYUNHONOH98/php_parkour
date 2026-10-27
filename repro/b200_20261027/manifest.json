@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "source_root": "/NHNHOME/haecheolpark/php_parkour",
+  "php_base_commit": "c7c9ce3fc75a8754a7e403c58de3b6933254d01b",
+  "holosoma_commit": "4a0bf04cde5930af5ed59da797568d32be972525",
+  "python": "3.11.17 (main, Oct 13 2026, 16:45:47) [GCC 15.3.0]",
+  "task_order": [
+    "hurdle",
+    "box_up",
+    "box_down",
+    "crouch"
+  ],
+  "registries": {
+    "hurdle": "data/task_teachers_20261026/hurdle",
+    "box_up": "data/box_up_original_geometry_20261026/box_up",
+    "box_down": "data/task_teachers_20261026/box_down",
+    "crouch": "data/task_teachers_20261026/crouch"
+  },
+  "experts": {
+    "hurdle": {
+      "path": "repro/b200_20261027/experts/hurdle.pt",
+      "iteration": 6100,
+      "sha256": "f6779dc463313961749732ac66de449a9c871679737c9043d98f4ccb88b1e66a",
+      "source_checkpoint": "/NHNHOME/haecheolpark/php_parkour/outputs/task_suite_20261026/production_4teachers20k_student30k/teacher_hurdle_selfcollision_off_10k/runs/php-parkour/20261027_025329-php-b200-teacher-teacher_hurdle_selfcollision_off_10k-production_4teachers10k_student30k_selfcollision_off_20261027/model_06100.pt",
+      "wandb_run": "humanoid-parkour/php-parkour/6mb6f8fb"
+    },
+    "box_up": {
+      "path": "repro/b200_20261027/experts/box_up.pt",
+      "iteration": 6100,
+      "sha256": "9b55e83237e7d19b33ec73801f28b8476c82042f70940948359d001115d576d8",
+      "source_checkpoint": "/NHNHOME/haecheolpark/php_parkour/outputs/task_suite_20261026/production_4teachers20k_student30k/teacher_box_up_selfcollision_off_10k/runs/php-parkour/20261027_025329-php-b200-teacher-teacher_box_up_selfcollision_off_10k-production_4teachers10k_student30k_selfcollision_off_20261027/model_06100.pt",
+      "wandb_run": "humanoid-parkour/php-parkour/0j17skh2"
+    },
+    "box_down": {
+      "path": "repro/b200_20261027/experts/box_down.pt",
+      "iteration": 6100,
+      "sha256": "0418a51bcc76ef4f7c71f05777935078985c4ee721bd217c5ed19b8633f4c7ab",
+      "source_checkpoint": "/NHNHOME/haecheolpark/php_parkour/outputs/task_suite_20261026/production_4teachers20k_student30k/teacher_box_down_selfcollision_off_10k/runs/php-parkour/20261027_025329-php-b200-teacher-teacher_box_down_selfcollision_off_10k-production_4teachers10k_student30k_selfcollision_off_20261027/model_06100.pt",
+      "wandb_run": "humanoid-parkour/php-parkour/wk00qnw4"
+    },
+    "crouch": {
+      "path": "repro/b200_20261027/experts/crouch.pt",
+      "iteration": 6200,
+      "sha256": "d5584a72e4ed58baad4081c0ff1fc92717b11ecc9a09e53c1273125911791956",
+      "source_checkpoint": "/NHNHOME/haecheolpark/php_parkour/outputs/task_suite_20261026/production_4teachers20k_student30k/teacher_crouch_selfcollision_off_10k/runs/php-parkour/20261027_025329-php-b200-teacher-teacher_crouch_selfcollision_off_10k-production_4teachers10k_student30k_selfcollision_off_20261027/model_06200.pt",
+      "wandb_run": "humanoid-parkour/php-parkour/34t1t5lh"
+    }
+  },
+  "assets": {
+    "data/task_teachers_20261026/manifest.json": {
+      "bytes": 3637,
+      "sha256": "7619ba14d2b6689301d7e01ac6c702293f975f64643fdce1ca7fa6229df68968"
+    },
+    "data/b200_robot_headless/main_mesh_arm_collision_halfspherehand.usd": {
+      "bytes": 1486,
+      "sha256": "b1792daff6857931bbc92fee87da82698494c0c4e49783a80e661b59964d90d7"
+    },
+    "data/b200_robot_headless/config.yaml": {
+      "bytes": 1778,
+      "sha256": "7f959416ec7a337d64bdfbfad3773ba415aeade020561e373265829f9aba6bc7"
+    },
+    "data/b200_robot_headless/.asset_hash": {
+      "bytes": 32,
+      "sha256": "6dbc0dd319fab1cb2eb2951102c49a34dcc8bd099f4d07acd4ec7ed8ec684731"
+    },
+    "data/box_up_original_geometry_20261026/box_up/task_terrain.npy": {
+      "bytes": 168,
+      "sha256": "ba2966ffdd37d589082b402585692442dc3e80b1e32411fab6c9f1b4d20acd06"
+    },
+    "data/box_up_original_geometry_20261026/box_up/task_manifest.json": {
+      "bytes": 1827,
+      "sha256": "9f8c8a078a00634953ff22b26933f567d763ec5dd5bce9c8ce5459baad048f93"
+    },
+    "data/box_up_original_geometry_20261026/box_up/task_terrain.obj": {
+      "bytes": 869,
+      "sha256": "8c8325bafa0af206a0616b8a5751d20131e5d2511f44156979a757bb65891558"
+    },
+    "data/box_up_original_geometry_20261026/box_up/task_motion.npz": {
+      "bytes": 1169146,
+      "sha256": "b86f295b8eb25b89d7438a5d6744b4c9afb75e478c08be9e8710a5af4b50b2d0"
+    },
+    "data/task_teachers_20261026/hurdle/task_terrain.npy": {
+      "bytes": 168,
+      "sha256": "281a5473c51c24cd52c35a736c80f2ea6be1c088a734cde8ef44cb33ca36aa4c"
+    },
+    "data/task_teachers_20261026/hurdle/task_manifest.json": {
+      "bytes": 684,
+      "sha256": "def6b4d00904c1828671547f0ecea174866a4f25ece4cd6547f4062641e5b1af"
+    },
+    "data/task_teachers_20261026/hurdle/task_terrain.obj": {
+      "bytes": 869,
+      "sha256": "216aa740c0df294387e34b54eab5427027aaae27f83a4d77d3ccd539e1843792"
+    },
+    "data/task_teachers_20261026/hurdle/task_motion.npz": {
+      "bytes": 749737,
+      "sha256": "a8e7fde2d36e4406195466935287e2ca2d739e723916eb020fd7fe346f6cff51"
+    },
+    "data/task_teachers_20261026/crouch/task_terrain.npy": {
+      "bytes": 248,
+      "sha256": "77757cd7b92eb46ad4127c6721e9c4740dd046cd32ff72ff90287b1c8cee7a93"
+    },
+    "data/task_teachers_20261026/crouch/task_manifest.json": {
+      "bytes": 698,
+      "sha256": "3e7e635fca56ca0b1336c1607ad3814954dda5725956ef1ec17ef92483038763"
+    },
+    "data/task_teachers_20261026/crouch/task_terrain.obj": {
+      "bytes": 1701,
+      "sha256": "9146ed5496eb0764dc04204403b166ad0714d59ed5eb8b4cda95cfd0a7935dfd"
+    },
+    "data/task_teachers_20261026/crouch/task_motion.npz": {
+      "bytes": 498406,
+      "sha256": "291bdb51b61f0a9f642d1b40e31baf6cf68bde63eee397b25f3a517c7c673fd9"
+    },
+    "data/task_teachers_20261026/box_down/task_terrain.npy": {
+      "bytes": 368,
+      "sha256": "25917a4066c6b9bb26a53eafd5700f26680bc061fbe158c3e9ae96cfe387e6ca"
+    },
+    "data/task_teachers_20261026/box_down/task_manifest.json": {
+      "bytes": 720,
+      "sha256": "a2730e6f75ab86dbca292408805784e8edd74767996a44f890ff62166f4ca5c2"
+    },
+    "data/task_teachers_20261026/box_down/task_terrain.obj": {
+      "bytes": 2706,
+      "sha256": "6b10e17b81a7b84fb07da80a759dcd818b2eb56b7def30bd46f3bf96d6b02c1b"
+    },
+    "data/task_teachers_20261026/box_down/task_motion.npz": {
+      "bytes": 1231574,
+      "sha256": "596cec744336cfb71d1e1ab26d1e4b73ff43b09817588f24b0c2b31a805ba645"
+    },
+    "data/task_teachers_20261026/box_up/task_terrain.npy": {
+      "bytes": 368,
+      "sha256": "c80d4bcd4e4fadd4837f071897088589b234567fa2a39683bd54d7a0edd989f5"
+    },
+    "data/task_teachers_20261026/box_up/task_manifest.json": {
+      "bytes": 721,
+      "sha256": "9d6abb80f31498163c2f6b04001e93e635ba53e165ec7b1cbbb9c045c4f71db3"
+    },
+    "data/task_teachers_20261026/box_up/task_terrain.obj": {
+      "bytes": 2698,
+      "sha256": "0d4e98de7279bf6f67ef058c8b63b21341ea577ab2f5fcb4245de7cb03b56d09"
+    },
+    "data/task_teachers_20261026/box_up/task_motion.npz": {
+      "bytes": 1163681,
+      "sha256": "87c956f0784bec3952f856e19b8fc1c5bc8b50576f78e535d47c2ba4de67b7f4"
+    },
+    "data/b200_robot_headless/configuration/main_mesh_arm_collision_halfspherehand_sensor.usd": {
+      "bytes": 642,
+      "sha256": "950a4ebae64be45179e6267fe0d8eb8aa9d2206ef65087a12a7d17456fa8ac8f"
+    },
+    "data/b200_robot_headless/configuration/main_mesh_arm_collision_halfspherehand_physics.usd": {
+      "bytes": 11182,
+      "sha256": "cd435e7ede48bbd157671851d2c16b7f6cb4a8c3de7ac143ac55ee3e620975a2"
+    },
+    "data/b200_robot_headless/configuration/main_mesh_arm_collision_halfspherehand_robot.usd": {
+      "bytes": 2941,
+      "sha256": "6fa2ef37f8aa86620562687d5c421005b2cb4c4efdd5efe26d9fe19bc7760b19"
+    },
+    "data/b200_robot_headless/configuration/main_mesh_arm_collision_halfspherehand_base.usd": {
+      "bytes": 23864391,
+      "sha256": "d3ef439bf123e622ea4448f6e55eb8445bffcb1d573bca8b7d33cb5496a50151"
+    },
+    "repro/b200_20261027/experts/box_up.pt": {
+      "bytes": 10346303,
+      "sha256": "9b55e83237e7d19b33ec73801f28b8476c82042f70940948359d001115d576d8"
+    },
+    "repro/b200_20261027/experts/box_down.pt": {
+      "bytes": 10346303,
+      "sha256": "0418a51bcc76ef4f7c71f05777935078985c4ee721bd217c5ed19b8633f4c7ab"
+    },
+    "repro/b200_20261027/experts/hurdle.pt": {
+      "bytes": 10346239,
+      "sha256": "f6779dc463313961749732ac66de449a9c871679737c9043d98f4ccb88b1e66a"
+    },
+    "repro/b200_20261027/experts/crouch.pt": {
+      "bytes": 10346239,
+      "sha256": "d5584a72e4ed58baad4081c0ff1fc92717b11ecc9a09e53c1273125911791956"
+    },
+    "repro/b200_20261027/runtime/isaaclab-source.tar.gz": {
+      "bytes": 1913755,
+      "sha256": "86cbb05b41ef30381079f1c05644c9ca512952702288cccfb6bb0f32476030e6"
+    },
+    "repro/b200_20261027/runtime/requirements-linux-64.txt": {
+      "bytes": 6866,
+      "sha256": "aec4ef64f2b0f58e21af4270423495ada1c657bb66a2360af056e7bbbfadd079"
+    },
+    "repro/b200_20261027/runtime/conda-explicit-linux-64.txt": {
+      "bytes": 19665,
+      "sha256": "0d7c099de579bdcbf7d8a0f8f65f328dd59cf5daa071f1597638146f5a1854b5"
+    },
+    "repro/b200_20261027/runtime/isaaclab-source-manifest.json": {
+      "bytes": 153453,
+      "sha256": "e96017324bbfbafb0530d145b8ad121ef69db45d66b1de528dad21d3a557702a"
+    },
+    "repro/b200_20261027/runtime/installed-distributions.json": {
+      "bytes": 9349,
+      "sha256": "c03d3d34236268929312a01eec420298ede99bc3e62bdfce3a47310f9fc3dd03"
+    },
+    "tools/b200/bin/confine-linux-x86_64": {
+      "bytes": 16272,
+      "sha256": "780adc5adbc85f13fb2ddf950a21f85270a11b7b4c5230f9b1efe6967dfa674a"
+    }
+  },
+  "current_student": {
+    "wandb_run": "humanoid-parkour/php-parkour/m730hwnl",
+    "num_envs": 32768,
+    "total_iterations": 30000,
+    "seed": 42,
+    "architecture": [
+      397,
+      2048,
+      1024,
+      512,
+      256,
+      128,
+      29
+    ],
+    "perception": "heightmap",
+    "domain_randomization": false,
+    "self_collision": false
+  }
+}

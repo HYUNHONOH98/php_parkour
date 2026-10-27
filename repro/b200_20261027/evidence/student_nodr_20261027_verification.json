@@ -1,0 +1,189 @@
+{
+  "checked_at": "2026-10-27T14:53:19+09:00",
+  "production_student_running": true,
+  "student_pid": 199772,
+  "controller_pid": 199773,
+  "teacher_training_stopped": true,
+  "student_envs": 32768,
+  "student_target_iterations": 30000,
+  "latest_iteration": 4,
+  "latest_losses": {
+    "ppo_coef": 0.0004,
+    "warmup_active": 0.0,
+    "learning_rate": 0.0003,
+    "total_loss": 0.6771879196166992,
+    "surrogate_loss": 0.3311639130115509,
+    "value_loss": 0.2672276496887207,
+    "behavior": 0.040984272956848145,
+    "entropy_mean": -92.40057373046875,
+    "mean_kl": 0.0,
+    "ppo_gate_mean": 0.6729309558868408
+  },
+  "self_collision": false,
+  "domain_randomization": false,
+  "runtime": {
+    "num_envs": 32768,
+    "control_dt": 0.02,
+    "physics_dt": 0.005,
+    "motion_frames": 1888,
+    "reference_end_flags": 4,
+    "obs_shapes": {
+      "actor_obs/flat": [
+        32768,
+        108
+      ],
+      "critic_obs/flat": [
+        32768,
+        575
+      ],
+      "teacher_obs/flat": [
+        32768,
+        450
+      ],
+      "depth_camera/depth_cam": [
+        32768,
+        58,
+        87
+      ]
+    },
+    "depth": {
+      "depth_cam": {
+        "finite_fraction": 1.0,
+        "positive_fraction": 0.5028629302978516,
+        "min": -0.5494704842567444,
+        "max": 0.5
+      }
+    },
+    "gpu": "NVIDIA B200",
+    "renderer_cameras": false,
+    "physics_clock_fix": true,
+    "body_count": 32,
+    "joint_count": 29,
+    "filesystem_isolated": true,
+    "landlock_confined": true,
+    "python": "/NHNHOME/haecheolpark/php_parkour/.runtime/b200/env/bin/python",
+    "python_prefix": "/NHNHOME/haecheolpark/php_parkour/.runtime/b200/env",
+    "holosoma": "/NHNHOME/haecheolpark/php_parkour/thirdparty/holosoma/src/holosoma/holosoma/__init__.py",
+    "torch": "/NHNHOME/haecheolpark/php_parkour/.runtime/b200/env/lib/python3.11/site-packages/torch/__init__.py",
+    "cwd": "/NHNHOME/haecheolpark/php_parkour",
+    "gpu_max_rigid_patch_count": 1048576,
+    "self_collision_config": false,
+    "native_preview_surface_command": "omni.usd.commands.usd_commands.CreatePreviewSurfaceMaterialPrim",
+    "native_articulation_self_collision": {
+      "/World/envs/env_0/Robot/pelvis": false
+    },
+    "registries": [
+      "file:///NHNHOME/haecheolpark/php_parkour/data/task_teachers_20261026/hurdle",
+      "file:///NHNHOME/haecheolpark/php_parkour/data/box_up_original_geometry_20261026/box_up",
+      "file:///NHNHOME/haecheolpark/php_parkour/data/task_teachers_20261026/box_down",
+      "file:///NHNHOME/haecheolpark/php_parkour/data/task_teachers_20261026/crouch"
+    ],
+    "teacher_checkpoints": [
+      "/NHNHOME/haecheolpark/php_parkour/outputs/student_nodr_20261027/experts/hurdle/checkpoint.pt",
+      "/NHNHOME/haecheolpark/php_parkour/outputs/student_nodr_20261027/experts/box_up/checkpoint.pt",
+      "/NHNHOME/haecheolpark/php_parkour/outputs/student_nodr_20261027/experts/box_down/checkpoint.pt",
+      "/NHNHOME/haecheolpark/php_parkour/outputs/student_nodr_20261027/experts/crouch/checkpoint.pt"
+    ],
+    "teacher_routing_histogram": {
+      "0": 8152,
+      "1": 8162,
+      "2": 8204,
+      "3": 8250
+    },
+    "domain_randomization_verification": {
+      "all_domain_randomization_off": true,
+      "observation_noise": false,
+      "depth_augmentation": false,
+      "depth_repeated_input_exact": true,
+      "depth_latency_frames": 0,
+      "depth_holes": false,
+      "depth_offset_max": 0.0,
+      "camera_extrinsic_randomization": false,
+      "camera_pose_across_env_max_difference": 0.0,
+      "pushes": false,
+      "com_randomization": false,
+      "joint_bias_max": 0.0,
+      "action_delay": false,
+      "robot_material_max_error": 0.0,
+      "robot_static_friction": 1.0,
+      "robot_dynamic_friction": 1.0,
+      "robot_restitution": 0.0,
+      "terrain_spawn_jitter": false,
+      "terrain_geometry": "Original authored per-task union meshes; one fixed copy per task",
+      "retained": "Uniform expert and reference-frame dataset sampling; PPO action exploration; deterministic termination curriculum"
+    }
+  },
+  "update_verification": {
+    "iteration": 3,
+    "changed_keys": [
+      "student.0.weight",
+      "student.0.bias",
+      "student.2.weight",
+      "student.2.bias",
+      "student.4.weight",
+      "student.4.bias",
+      "student.6.weight",
+      "student.6.bias",
+      "student.8.weight",
+      "student.8.bias",
+      "student.10.weight",
+      "student.10.bias",
+      "depth_backbone.image_compression.0.weight",
+      "depth_backbone.image_compression.0.bias",
+      "depth_backbone.image_compression.2.weight",
+      "depth_backbone.image_compression.2.bias",
+      "depth_backbone.image_compression.4.weight",
+      "depth_backbone.image_compression.4.bias",
+      "depth_backbone.image_compression.8.weight",
+      "depth_backbone.image_compression.8.bias",
+      "critic.0.weight",
+      "critic.0.bias",
+      "critic.2.weight",
+      "critic.2.bias",
+      "critic.4.weight",
+      "critic.4.bias",
+      "critic.6.weight",
+      "critic.6.bias"
+    ],
+    "frozen_teacher_tensor_count": 44,
+    "teachers_exactly_frozen": true,
+    "depth_cnn_updated": true,
+    "student_updated": true,
+    "finite_losses": true
+  },
+  "source_teacher_weights": {
+    "hurdle": {
+      "iteration": 6100,
+      "tensor_count": 8,
+      "weights_exact": true,
+      "sha256": "f6779dc463313961749732ac66de449a9c871679737c9043d98f4ccb88b1e66a"
+    },
+    "box_up": {
+      "iteration": 6100,
+      "tensor_count": 8,
+      "weights_exact": true,
+      "sha256": "9b55e83237e7d19b33ec73801f28b8476c82042f70940948359d001115d576d8"
+    },
+    "box_down": {
+      "iteration": 6100,
+      "tensor_count": 8,
+      "weights_exact": true,
+      "sha256": "0418a51bcc76ef4f7c71f05777935078985c4ee721bd217c5ed19b8633f4c7ab"
+    },
+    "crouch": {
+      "iteration": 6200,
+      "tensor_count": 8,
+      "weights_exact": true,
+      "sha256": "d5584a72e4ed58baad4081c0ff1fc92717b11ecc9a09e53c1273125911791956"
+    }
+  },
+  "checkpoint": "/NHNHOME/haecheolpark/php_parkour/outputs/task_suite_20261026/production_4teachers20k_student30k/student_nodr_selfcollision_off_32768_30k/runs/php-parkour/20261027_054806-php-b200-student-student_nodr_selfcollision_off_32768_30k-student_nodr_32768_30k_20261027/model_00000.pt",
+  "run": {
+    "id": "b3892i64",
+    "url": "https://wandb.ai/humanoid-parkour/php-parkour/runs/b3892i64",
+    "entity": "humanoid-parkour",
+    "project": "php-parkour",
+    "pid": 199772
+  },
+  "no_physics_overflow": true
+}

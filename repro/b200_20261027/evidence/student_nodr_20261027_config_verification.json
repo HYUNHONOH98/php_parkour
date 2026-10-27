@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-27T14:48:42+09:00",
+  "valid": true,
+  "num_envs": 32768,
+  "domain_randomization": false,
+  "physical_material": "fixed static=1 dynamic=1 restitution=0",
+  "depth_augmentation": false,
+  "depth_latency_frames": 0,
+  "initial_state_noise": false,
+  "terrain_spawn_noise": false,
+  "retained_dataset_sampling": "Uniform expert and reference phase sampling; no physical perturbation",
+  "retained_ppo_exploration": true,
+  "source_sha256": {
+    "tools/b200/train.py": "98ff347f796e8af4f5ca9e987c4ae9a99b268b2ff1ab5efb0eaf152532762c25",
+    "tools/b200/student_nodr_suite.py": "125b3c4358eb9a7a480daa830e358a059bbb6e7138976fff7beb4ff676f02141",
+    "wbt_training/config_values/no_domain_randomization.py": "98a526963b76e756a3a16d79ef90eee5f0ea29413c564800ec3b01b9ae5cf8ed",
+    "wbt_training/utils/clean_depth.py": "0e5847eb7377425404d55556196150c54d651bd9c1e3256945a3a8438217a12b",
+    "wbt_training/utils/task_preprocess.py": "b404434d5803f6fa588818913e05cb1e24409cd3bb788f6292ec7c00a719d300"
+  }
+}

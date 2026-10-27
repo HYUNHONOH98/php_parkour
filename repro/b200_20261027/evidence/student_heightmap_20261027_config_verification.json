@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-10-27T15:33:23+09:00",
+  "valid": true,
+  "architecture": [
+    397,
+    2048,
+    1024,
+    512,
+    256,
+    128,
+    29
+  ],
+  "actor_term_order": [
+    "actions",
+    "base_ang_vel",
+    "dof_pos",
+    "dof_vel",
+    "robot_anchor_projected_gravity",
+    "velocity_command",
+    "zz_height_scan"
+  ],
+  "no_reference_inputs_in_actor": true,
+  "depth_group_present": false,
+  "depth_backbone": "",
+  "depth_output_dim": 0,
+  "domain_randomization": false,
+  "self_collision": false,
+  "source_sha256": {
+    "tools/b200/train.py": "67e2421346acdac63e81bfaa8f8fdbc4421efbc5b18756df67f988bfc1a973b9",
+    "tools/b200/student_heightmap_suite.py": "c4f687556a570a77a4d323eed090fcb387e4888b0195b7e3251ea3ba3155460c",
+    "wbt_training/config_values/heightmap_student.py": "9b6a43ff66a55fce13648d0b4d0dda76bc17626f80cfcdbe17e0dfb65bb08347",
+    "wbt_training/utils/heightmap_distillation.py": "94e32c21402d13076b8fd820c4c13155c9b378d629e423ccd9cbca79524e5368",
+    "wbt_training/config_values/no_domain_randomization.py": "bd73ff4768299689df1f50ce3522d2751ff6ce40b7178a9471b822176cea74fb"
+  }
+}

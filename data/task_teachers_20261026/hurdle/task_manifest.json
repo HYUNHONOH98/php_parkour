@@ -1,0 +1,25 @@
+{
+  "start_frame": 0,
+  "end_frame_exclusive": 382,
+  "frames": 382,
+  "duration_s": 7.64,
+  "source_time_range_s": [
+    0.0,
+    7.633333333333334
+  ],
+  "xy_translation": [
+    0.014641037210822105,
+    -0.012756786309182644
+  ],
+  "source_obstacle_indices": [
+    0
+  ],
+  "start_root_z": 0.7800177335739136,
+  "end_root_z": 0.7663686275482178,
+  "max_root_step_m": 0.01946752094673359,
+  "sha256": {
+    "task_terrain.npy": "281a5473c51c24cd52c35a736c80f2ea6be1c088a734cde8ef44cb33ca36aa4c",
+    "task_terrain.obj": "216aa740c0df294387e34b54eab5427027aaae27f83a4d77d3ccd539e1843792",
+    "task_motion.npz": "a8e7fde2d36e4406195466935287e2ca2d739e723916eb020fd7fe346f6cff51"
+  }
+}

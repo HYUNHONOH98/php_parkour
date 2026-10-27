@@ -1,0 +1,124 @@
+{
+  "source_sha256": "e0070605f72830e13d7af54db9f7e8a808146b9c982aeff356eed87633559267",
+  "method": "Continuous existing motion-matching clips, contiguous slices only; XY translation applied equally to motion and terrain",
+  "order": [
+    "hurdle",
+    "box_up",
+    "box_down",
+    "crouch"
+  ],
+  "tasks": {
+    "hurdle": {
+      "start_frame": 0,
+      "end_frame_exclusive": 382,
+      "frames": 382,
+      "duration_s": 7.64,
+      "source_time_range_s": [
+        0.0,
+        7.633333333333334
+      ],
+      "xy_translation": [
+        0.014641037210822105,
+        -0.012756786309182644
+      ],
+      "source_obstacle_indices": [
+        0
+      ],
+      "start_root_z": 0.7800177335739136,
+      "end_root_z": 0.7663686275482178,
+      "max_root_step_m": 0.01946752094673359,
+      "sha256": {
+        "task_terrain.npy": "281a5473c51c24cd52c35a736c80f2ea6be1c088a734cde8ef44cb33ca36aa4c",
+        "task_terrain.obj": "216aa740c0df294387e34b54eab5427027aaae27f83a4d77d3ccd539e1843792",
+        "task_motion.npz": "a8e7fde2d36e4406195466935287e2ca2d739e723916eb020fd7fe346f6cff51"
+      }
+    },
+    "box_up": {
+      "start_frame": 485,
+      "end_frame_exclusive": 1088,
+      "frames": 603,
+      "duration_s": 12.06,
+      "source_time_range_s": [
+        9.7,
+        21.766666666666666
+      ],
+      "xy_translation": [
+        -4.446305274963379,
+        -0.07295048236846924
+      ],
+      "source_obstacle_indices": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "start_root_z": 0.7599031329154968,
+      "end_root_z": 1.248679757118225,
+      "max_root_step_m": 0.018972236586592986,
+      "sha256": {
+        "task_terrain.npy": "c80d4bcd4e4fadd4837f071897088589b234567fa2a39683bd54d7a0edd989f5",
+        "task_terrain.obj": "0d4e98de7279bf6f67ef058c8b63b21341ea577ab2f5fcb4245de7cb03b56d09",
+        "task_motion.npz": "87c956f0784bec3952f856e19b8fc1c5bc8b50576f78e535d47c2ba4de67b7f4"
+      }
+    },
+    "box_down": {
+      "start_frame": 938,
+      "end_frame_exclusive": 1580,
+      "frames": 642,
+      "duration_s": 12.84,
+      "source_time_range_s": [
+        18.766666666666666,
+        31.6
+      ],
+      "xy_translation": [
+        -5.681928634643555,
+        -0.1382070928812027
+      ],
+      "source_obstacle_indices": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "start_root_z": 1.27605402469635,
+      "end_root_z": 0.7310318350791931,
+      "max_root_step_m": 0.018972236586592986,
+      "sha256": {
+        "task_terrain.npy": "25917a4066c6b9bb26a53eafd5700f26680bc061fbe158c3e9ae96cfe387e6ca",
+        "task_terrain.obj": "6b10e17b81a7b84fb07da80a759dcd818b2eb56b7def30bd46f3bf96d6b02c1b",
+        "task_motion.npz": "596cec744336cfb71d1e1ab26d1e4b73ff43b09817588f24b0c2b31a805ba645"
+      }
+    },
+    "crouch": {
+      "start_frame": 307,
+      "end_frame_exclusive": 560,
+      "frames": 253,
+      "duration_s": 5.06,
+      "source_time_range_s": [
+        6.133333333333334,
+        11.2
+      ],
+      "xy_translation": [
+        -1.9439762830734253,
+        0.18126825988292694
+      ],
+      "source_obstacle_indices": [
+        1,
+        2,
+        3
+      ],
+      "start_root_z": 0.7739130854606628,
+      "end_root_z": 0.7661468982696533,
+      "max_root_step_m": 0.03667165008347172,
+      "sha256": {
+        "task_terrain.npy": "77757cd7b92eb46ad4127c6721e9c4740dd046cd32ff72ff90287b1c8cee7a93",
+        "task_terrain.obj": "9146ed5496eb0764dc04204403b166ad0714d59ed5eb8b4cda95cfd0a7935dfd",
+        "task_motion.npz": "291bdb51b61f0a9f642d1b40e31baf6cf68bde63eee397b25f3a517c7c673fd9"
+      }
+    }
+  }
+}

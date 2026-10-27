@@ -35,3 +35,16 @@ motions/
 
 # User-specific optional service configuration
 .env.local
+
+# Independent B200 runtime, credentials, caches and generated reproduction inputs.
+.runtime/
+.env
+.netrc
+checkpoints/
+*.log
+
+# Intentional, immutable experiment inputs and exact frozen teacher snapshots.
+!data/task_teachers_20261026/**
+!data/box_up_original_geometry_20261026/box_up/**
+!data/b200_robot_headless/**
+!repro/b200_20261027/experts/*.pt

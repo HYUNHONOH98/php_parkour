@@ -1,0 +1,217 @@
+{
+  "completed": true,
+  "fresh_checkout": "/NHNHOME/haecheolpark/php_parkour/outputs/repo_repro_20261027/fresh_checkout",
+  "num_envs": 128,
+  "updates": 4,
+  "architecture": [
+    397,
+    2048,
+    1024,
+    512,
+    256,
+    128,
+    29
+  ],
+  "no_camera_or_cnn": true,
+  "all_four_teachers_frozen": true,
+  "rebased_checkpoints_exact": true,
+  "all_domain_randomization_off": true,
+  "reused_runtime": "/NHNHOME/haecheolpark/php_parkour/.runtime/b200/env",
+  "pinned_holosoma": "4a0bf04cde5930af5ed59da797568d32be972525",
+  "runtime": {
+    "num_envs": 128,
+    "control_dt": 0.02,
+    "physics_dt": 0.005,
+    "motion_frames": 1888,
+    "reference_end_flags": 4,
+    "obs_shapes": {
+      "actor_obs/flat": [
+        128,
+        397
+      ],
+      "critic_obs/flat": [
+        128,
+        575
+      ],
+      "teacher_obs/flat": [
+        128,
+        450
+      ]
+    },
+    "depth": {},
+    "gpu": "NVIDIA B200",
+    "renderer_cameras": false,
+    "physics_clock_fix": true,
+    "body_count": 32,
+    "joint_count": 29,
+    "filesystem_isolated": true,
+    "landlock_confined": true,
+    "python": "/NHNHOME/haecheolpark/php_parkour/.runtime/b200/env/bin/python",
+    "python_prefix": "/NHNHOME/haecheolpark/php_parkour/.runtime/b200/env",
+    "holosoma": "/NHNHOME/haecheolpark/php_parkour/outputs/repo_repro_20261027/fresh_checkout/thirdparty/holosoma/src/holosoma/holosoma/__init__.py",
+    "torch": "/NHNHOME/haecheolpark/php_parkour/.runtime/b200/env/lib/python3.11/site-packages/torch/__init__.py",
+    "cwd": "/NHNHOME/haecheolpark/php_parkour/outputs/repo_repro_20261027/fresh_checkout",
+    "gpu_max_rigid_patch_count": 327680,
+    "self_collision_config": false,
+    "native_preview_surface_command": "omni.usd.commands.usd_commands.CreatePreviewSurfaceMaterialPrim",
+    "native_articulation_self_collision": {
+      "/World/envs/env_0/Robot/pelvis": false
+    },
+    "registries": [
+      "file:///NHNHOME/haecheolpark/php_parkour/outputs/repo_repro_20261027/fresh_checkout/data/task_teachers_20261026/hurdle",
+      "file:///NHNHOME/haecheolpark/php_parkour/outputs/repo_repro_20261027/fresh_checkout/data/box_up_original_geometry_20261026/box_up",
+      "file:///NHNHOME/haecheolpark/php_parkour/outputs/repo_repro_20261027/fresh_checkout/data/task_teachers_20261026/box_down",
+      "file:///NHNHOME/haecheolpark/php_parkour/outputs/repo_repro_20261027/fresh_checkout/data/task_teachers_20261026/crouch"
+    ],
+    "teacher_checkpoints": [
+      "/NHNHOME/haecheolpark/php_parkour/outputs/repo_repro_20261027/fresh_checkout/.runtime/b200/reproduction-inputs/hurdle.pt",
+      "/NHNHOME/haecheolpark/php_parkour/outputs/repo_repro_20261027/fresh_checkout/.runtime/b200/reproduction-inputs/box_up.pt",
+      "/NHNHOME/haecheolpark/php_parkour/outputs/repo_repro_20261027/fresh_checkout/.runtime/b200/reproduction-inputs/box_down.pt",
+      "/NHNHOME/haecheolpark/php_parkour/outputs/repo_repro_20261027/fresh_checkout/.runtime/b200/reproduction-inputs/crouch.pt"
+    ],
+    "teacher_routing_histogram": {
+      "0": 32,
+      "1": 24,
+      "2": 42,
+      "3": 30
+    },
+    "domain_randomization_verification": {
+      "all_domain_randomization_off": true,
+      "observation_noise": false,
+      "depth_augmentation": false,
+      "depth_repeated_input_exact": null,
+      "depth_latency_frames": 0,
+      "depth_holes": false,
+      "depth_offset_max": 0.0,
+      "camera_extrinsic_randomization": false,
+      "camera_pose_across_env_max_difference": null,
+      "pushes": false,
+      "com_randomization": false,
+      "joint_bias_max": 0.0,
+      "action_delay": false,
+      "robot_material_max_error": 0.0,
+      "robot_static_friction": 1.0,
+      "robot_dynamic_friction": 1.0,
+      "robot_restitution": 0.0,
+      "terrain_spawn_jitter": false,
+      "terrain_geometry": "Original authored per-task union meshes; one fixed copy per task",
+      "retained": "Uniform expert and reference-frame dataset sampling; PPO action exploration; deterministic termination curriculum"
+    },
+    "heightmap_verification": {
+      "student_input_dim": 397,
+      "proprio_command_dim": 108,
+      "heightmap_dim": 289,
+      "ordering": "Original 108 flat actor features followed by 289 height_scan values",
+      "heightmap_grid": [
+        17,
+        17
+      ],
+      "heightmap_size_m": [
+        1.6,
+        1.6
+      ],
+      "heightmap_resolution_m": 0.1,
+      "heightmap_update_period_s": 0.02,
+      "heightmap_alignment": "yaw",
+      "depth_camera_created": false,
+      "cnn_created": false,
+      "actor_input_matches_components_exactly": true
+    }
+  },
+  "update_verification": {
+    "iteration": 3,
+    "changed_keys": [
+      "student.0.weight",
+      "student.0.bias",
+      "student.2.weight",
+      "student.2.bias",
+      "student.4.weight",
+      "student.4.bias",
+      "student.6.weight",
+      "student.6.bias",
+      "student.8.weight",
+      "student.8.bias",
+      "student.10.weight",
+      "student.10.bias",
+      "critic.0.weight",
+      "critic.0.bias",
+      "critic.2.weight",
+      "critic.2.bias",
+      "critic.4.weight",
+      "critic.4.bias",
+      "critic.6.weight",
+      "critic.6.bias"
+    ],
+    "frozen_teacher_tensor_count": 44,
+    "teachers_exactly_frozen": true,
+    "depth_cnn_updated": false,
+    "student_updated": true,
+    "finite_losses": true,
+    "student_perception": "heightmap",
+    "student_input_dim": 397,
+    "cnn_present": false
+  },
+  "checkpoint_provenance": {
+    "hurdle": {
+      "source_sha256": "f6779dc463313961749732ac66de449a9c871679737c9043d98f4ccb88b1e66a",
+      "rebased_sha256": "5c4fdc943cc3ec919c2b64daa7b0c21dcf57b11840687d2a792011a3bea967dd",
+      "iteration": 6100,
+      "model_and_optimizer_tensors_unchanged": true,
+      "registry": "file:///NHNHOME/haecheolpark/php_parkour/outputs/repo_repro_20261027/fresh_checkout/data/task_teachers_20261026/hurdle",
+      "fingerprints": {
+        "actor_model_state_dict": "86e6703a81b0ba750cd4e753f1bcd0448df1828881c7c1cca1dc625d94178d1b",
+        "critic_model_state_dict": "d01775e8538129ea4eda557f40d4ceb78cb5ef654bf1a8df1c775ce9e1870934",
+        "actor_optimizer_state_dict": "38f710f851825db1cce331d0e90811b30d062745836eff712efd173997b84f2e",
+        "critic_optimizer_state_dict": "ce33cc37c84e65b848599f1532cbabbd7a56065fa38449647a773dd599d23580",
+        "actor_obs_normalizer_state_dict": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+        "critic_obs_normalizer_state_dict": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+      }
+    },
+    "box_up": {
+      "source_sha256": "9b55e83237e7d19b33ec73801f28b8476c82042f70940948359d001115d576d8",
+      "rebased_sha256": "2cf35b1dc7021544a5d1f51b9d0985bf26730539a141ff726f57aeaff638d97e",
+      "iteration": 6100,
+      "model_and_optimizer_tensors_unchanged": true,
+      "registry": "file:///NHNHOME/haecheolpark/php_parkour/outputs/repo_repro_20261027/fresh_checkout/data/box_up_original_geometry_20261026/box_up",
+      "fingerprints": {
+        "actor_model_state_dict": "2238a1c50ace672d045eb5f2d4513add74813f739ede4a46521fea60308938aa",
+        "critic_model_state_dict": "d1f85dd31530b4cda41cf69ed285f1d9aff6f551a392e4c10fa76cc973cd1dcf",
+        "actor_optimizer_state_dict": "3bc53e7a436ab8bcfb5ea4e695175abc1f44ab6b5a5c9d459f6554dfcc8dd449",
+        "critic_optimizer_state_dict": "4893b11fdc9c8ca7d0f2c856bb312ee01331323a1ca68abb3f8f51580387f283",
+        "actor_obs_normalizer_state_dict": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+        "critic_obs_normalizer_state_dict": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+      }
+    },
+    "box_down": {
+      "source_sha256": "0418a51bcc76ef4f7c71f05777935078985c4ee721bd217c5ed19b8633f4c7ab",
+      "rebased_sha256": "17a4725ea2caa10c610f37d7e3e42ddb2ec6c88dce3bc256cbd6e415785b5275",
+      "iteration": 6100,
+      "model_and_optimizer_tensors_unchanged": true,
+      "registry": "file:///NHNHOME/haecheolpark/php_parkour/outputs/repo_repro_20261027/fresh_checkout/data/task_teachers_20261026/box_down",
+      "fingerprints": {
+        "actor_model_state_dict": "95d2106704b170925e9d31c236146a39330e0708964272a908cf5265990d9d4f",
+        "critic_model_state_dict": "569186ba7686db4ddd7fd8a6c21dd3f34c61f31acb7a8da4f7154f2692e293f7",
+        "actor_optimizer_state_dict": "091259ff359039ae1f471ba55c9ca4320d5218133f5135a23f51bc71b9b9bebd",
+        "critic_optimizer_state_dict": "9b72ed662c0ac3315d69a13da2a360103069b253cb6846d9bceb0cc2dbaeefcb",
+        "actor_obs_normalizer_state_dict": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+        "critic_obs_normalizer_state_dict": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+      }
+    },
+    "crouch": {
+      "source_sha256": "d5584a72e4ed58baad4081c0ff1fc92717b11ecc9a09e53c1273125911791956",
+      "rebased_sha256": "ba710b03d75874285bd8cf85e68668c9f6fd017e6447ebcbbd0f50736585472a",
+      "iteration": 6200,
+      "model_and_optimizer_tensors_unchanged": true,
+      "registry": "file:///NHNHOME/haecheolpark/php_parkour/outputs/repo_repro_20261027/fresh_checkout/data/task_teachers_20261026/crouch",
+      "fingerprints": {
+        "actor_model_state_dict": "ba40a7de8e850c846db1fdc61a8e65cf2855edbbd3d06788cad97b2a6a9b7f2c",
+        "critic_model_state_dict": "f76023b43840282240a119e15cafa7d0df829e72902059f2e45a1f8e6f69aa25",
+        "actor_optimizer_state_dict": "d5492759c3ff699ec22d2600f3555a61af6e656894ffd677a91fc3737988c1fe",
+        "critic_optimizer_state_dict": "ac45f39e01712df5183c4dfd45f2ce70102d1eae3e6aa31e500208de7b514228",
+        "actor_obs_normalizer_state_dict": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+        "critic_obs_normalizer_state_dict": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+      }
+    }
+  },
+  "limitation": "This smoke test reuses the already validated independent runtime and exact pinned Holosoma source. A full fresh dependency installation is not claimed."
+}
